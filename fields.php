@@ -104,10 +104,12 @@ function addRelatedField($fromModule, $targetModuleNameArray, $fieldName, $field
 }
 
 if($_POST['submit'] == 'ok') {
-
+	// Add Fields START
 	addRelatedField('Accounts', array('Invoice'), 'invoiceid', 'Invoice');
 
     addPicklist(array('Leads', 'Accounts', 'Contacts'),  'testfield', 'Fieldlabel', array('value1', 'value2', 'value3'));
+	
+	// Add Fields END
 } else {
     ?>
     Input 'ok' to start

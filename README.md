@@ -18,4 +18,4 @@ It allows you to add related fields to multiple modules, and picklists, which sy
   // Add Fields START  
   // Add Fields END 
 
-and add PHP functions call to add the fields
+and add PHP functions addRelatedField and addPicklist to add the fields. (See examples)
