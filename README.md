@@ -12,9 +12,9 @@ It allows you to add related fields to multiple modules, and picklists, which sy
 
 **Please pay attention if you use this file. Errors require lots of time to be correct.**
 
-1. Upload **fields.php** to root directory of your vtigercrm
-2. edit the file between 
-3. 
+- Upload **fields.php** to root directory of your vtigercrm
+- edit the file between 
+ 
   // Add Fields START  
   // Add Fields END 
 
